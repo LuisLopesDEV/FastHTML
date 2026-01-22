@@ -9,7 +9,7 @@ lista_tarefas = []
 def homepage():
     formulario = gerar_formulario()
     elemento_lista_tarefa = gerar_lista_tarefas(lista_tarefas)
-    return Titled("Lista de Tarefas", formulario, elemento_lista_tarefa)
+    return Titled("Lista de Tarefas 📘", formulario, elemento_lista_tarefa)
 
 @routes('/adcionar_tarefa', methods=["post"])
 def adcionar_tarefa(tarefa: str):
