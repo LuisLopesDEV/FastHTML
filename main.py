@@ -5,6 +5,8 @@ app, routes = fast_app()
 
 lista_tarefas = []
 
+
+
 @routes("/")
 def homepage():
     formulario = gerar_formulario()
